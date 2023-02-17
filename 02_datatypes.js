@@ -1,0 +1,15 @@
+var myName="Satyavan Shejal";
+var age=26;
+var isMarried=true;
+var isLazy=false;
+var typeOfMyName=typeof myName;
+console.log("Type of Variable My Name",typeOfMyName);
+console.log("Type of Variable age is ", typeof age);
+console.log("Type of Variable isMarried ", typeof isMarried);
+var gradution;
+console.log("Type of gradution is",gradution);
+var city=null;
+console.log("The value of city variable is",city);
+console.log("type of city variable is",typeof city);
+age=null;
+console.log("type of city variable is",typeof age);

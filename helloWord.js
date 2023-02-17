@@ -1,1 +1,12 @@
 console.log("Satyavan Shejal");
+console.log("32");
+console.log("Pune");
+var fullName="satyavan shejal";
+console.log(fullName);
+console.log(fullName);
+var age=26;
+console.log(age);
+var city;
+console.log(city);
+city="Surat";
+console.log(city);

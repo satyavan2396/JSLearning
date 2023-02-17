@@ -1,0 +1,20 @@
+console.log("********************************Step 1.****************************");
+var myFullName;
+console.log("My FullName is:",myFullName);
+myFullName="Satyavan Shejal";
+console.log("My FullName is:",myFullName);
+myFullName="Satyavan Jagannath Shejal";
+console.log("My FullName is:",myFullName);
+console.log("********************************Step 2.****************************");
+var myLove="I love only JS";
+console.log("My Love:",myLove);
+console.log("********************************Step 3.****************************");
+var firstName="Satyavan";
+var lastName="Shejal";
+var age="26";
+var address="At Post-Save Tal sangola Dist-Solapur";
+var pin_code="413317";
+var gender="Male";
+var isMarried="Yes";
+console.log("My first Name is:",firstName,"last Name is:",lastName,"age is:",age,"address is:",address,
+"pincode is:",pin_code,"gender is:",gender,"Is you married:",isMarried);
