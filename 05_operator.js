@@ -34,3 +34,21 @@ console.log(10<10);
 var marks=35;
 console.log(marks>=35);
 
+var marks=70;
+var result=marks>=60? "Allow him for interview": "Dont Allow";
+console.log(result);
+
+var age=20;
+var ageResult=age>=21? "Elgible  for marrriage" : "Not Eligible";
+console.log(ageResult);
+
+var myNumber=8;
+var result=myNumber%2==0? "Even" : "Odd";
+console.log(result);
+
+var myNumber=8;
+var result=myNumber>=0? "Positive" : "Negative";
+console.log(result);
+
+
+
