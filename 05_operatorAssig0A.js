@@ -1,7 +1,7 @@
 console.log(`..............................step1...........................`);
 function greaterNumber(num1,num2){
 var result=num1>=num2? num1 :num2;
-console.log(`The Greater Number is:${result}`);
+console.log(`The Greater Number among ${num1}, ${num2} is:${result}`);
 }
 greaterNumber(10,-10);
 greaterNumber(800,899);
@@ -32,10 +32,10 @@ var res=wordLength("Javascript");
 console.log(`The Given Word 'Javascript' is ${res} length`);
 
 var res=wordLength("developer");
-console.log(`The Given Word 'Javascript' is ${res} length`);
+console.log(`The Given Word 'developer' is ${res} length`);
 
 var res=wordLength("Google");
-console.log(`The Given Word 'Javascript' is ${res} length`);
+console.log(`The Given Word 'Google' is ${res} length`);
 
 
 
