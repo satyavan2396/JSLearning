@@ -23,7 +23,7 @@ voteEligibility(undefined);
 
 console.log(`...................step2.................................`);
 function gradeCalculation(marks){
-if(marks<0|| marks>100 || (typeof marks!="number")||marks===undefined||marks===NaN ||marks===null){
+if(marks<0|| marks>100 || (typeof marks!="number")||isNaN(marks)){
     console.log(`Please Provide the valid marks-${marks}`);
 }
     if(marks>=90 && marks<100){
