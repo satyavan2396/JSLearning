@@ -41,8 +41,19 @@ var result=lastWordCharCount("Hard work and commitment is the key of success");
 console.log(`Total charter of last word is :${result}`);
 
 
-
-
+var firstWordLength=function(str){
+ var firsdWord="";
+ for (let index = 0; index <=str.length-1; index++) {
+   var char= str.charAt(index);
+   if (char==" ") {
+    break;
+   }
+    firstWord=firsdWord+char;
+ }
+ return firsdWord;
+}
+var result=firstWordLength("Focus is the key");
+console.log(result);
 
 
 
