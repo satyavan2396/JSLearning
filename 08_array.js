@@ -67,3 +67,14 @@ console.log(arrayOfNumbers);
 console.log(`....splice() to insert multiply element without replacing existing element`);
 arrayOfNumbers.splice(4,0,5,35,55)
 console.log(arrayOfNumbers);
+
+console.log(`==============Array Traversing==============`);
+var arrayOfNumbers=[10,20,25,15,40,45,60,40,30,22,26]
+let sum=0;
+for (let index = 0; index < arrayOfNumbers.length; index++) {
+    const element = arrayOfNumbers[index];
+    sum=sum+element;
+    console.log(element);
+    
+}
+console.log(`Sum of array Element is : ${sum}`);
