@@ -50,7 +50,7 @@ function traverseObject(arg1){
 for (const key in arg1) {
     if (Object.hasOwnProperty.call(arg1, key)) {
         const element = arg1[key];
-        console.log(`${key}:${element}`);
+        console.log(` Object ${key}:${element}`);
         
     }
    
