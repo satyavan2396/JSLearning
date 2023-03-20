@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Web Session storage</title>
+    </head>
+    <body>
+        <h2>Web Session Storage</h2>
+        <script>
+            var aaa="Global Variable";
+            window.sessionStorage.setItem("fullName","Virat Kohali")
+            window.sessionStorage.setItem("Country","India")
+            window.sessionStorage.setItem("state","MH ")
+            const Country =window.sessionStorage.getItem("Country")
+            console.log(Country);
+        </script>
+    </body>
+</html>
